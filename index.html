@@ -6,13 +6,49 @@
 
     <head>
         <meta charset="utf-8" />
-        <meta description="Proyecto curso de diseño web 2014" /> <!-- Importante que sea diferente en cada pagina pues es la descripcion que aparece cuando busco mi web en motor de busqueda de google ... el meta keywords no es util -->
+        <meta description="Proyecto - curso de diseño web 2014" /> <!-- Importante que sea diferente en cada pagina pues es la descripcion que aparece cuando busco mi web en motor de busqueda de google ... el meta keywords no es util , ni el meta tags-->
        <title>Puls2014: Comunidad  </title><!--siempre debe ser diferente en cada pagina -->
-       <title> </title>
+       
     </head>
     <body>
-
-       
+<header> 
+    <h1>Henao</h1>
+    <figure id="logo"><!--los id son unicos y se llaman con # en el css -->
+            <img src="images/logo.png"/></figure>
+   
+        </header>
+    <nav><ul>
+        <li><a href="#">Python</a></li>
+        <li><a href="#">HTML5</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">CSS3</a></li>
+        <li><a href="#">Django</a></li>
+        <li id="publicar_nav">
+            <a href="#">Publicar</a>
+        </li>
+        </ul>
+        </nav>
+            <section id="contenido">
+            <article class="item"><!--los class son repetibles y duplicables en multiples elementos, se llaman con . en el css --> 
+             <figure class="imagen_item">
+                <img src="images/imagen.jpg"/>            
+                </figure>   
+                <h2><a href="#">
+                    Título del artículo
+                    </a>
+                </h2>
+                <div class="autor_item"><a href="#">Johana Muñoz</a>
+                </div>
+                <div class="datos_item">
+                <a href="#" class="comentarios_item">69</a>
+                    <a href="#" class="guardar_item"></a>
+                </div>
+                <div class="votacion">
+                <a href="#" class="up"></a>
+                </div>
+            </article>
+        </section>
+        <footer><p><strong>Power by Henao</strong></p></footer>
     </body>
 </html>
 <!--   -->
